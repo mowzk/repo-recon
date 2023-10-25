@@ -16,6 +16,7 @@ const HARDCODED_USERNAME = "admin";
 
 app.use(cookieParser());
 app.use(express.json());
+app.use(express.static('public'));
 
 app.post('/login', (req, res) => {
   const { username, password } = req.body;

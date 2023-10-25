@@ -3,7 +3,7 @@ node_modules/
 npm-debug.log
 
 # Environment variables
-#.env
+.env
 prepare.py
 
 # IDE and editor files
